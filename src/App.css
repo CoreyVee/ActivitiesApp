@@ -1,0 +1,67 @@
+/* 
+green : #a1ae25;
+lightgreen : #e1dc6b;
+brown: #bb8918;
+purple: #523637;
+pink: #f2b9cc; */
+.App {
+
+}
+Body {
+    background: #d9a7c7;  /* fallback for old browsers */
+}
+{
+    margin-left: 5px;
+}
+.none {
+    display: none;
+
+}
+.none {
+    display: none;
+
+}
+.block {
+    display: block;
+}
+#activityCard {
+    margin-top: 25px;
+}
+hr {
+    padding: 0px;
+}
+.signature {
+    color: white;
+}
+#header{
+    margin-bottom: 25px;
+}
+#footer {
+    margin-top: 75px;
+}
+.activityCard {
+    margin-bottom: 60px;
+}
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  .aboutTitle{
+      padding: 20px;
+  }
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+.aboutParagraph {
+    margin-left: 15px;
+}
+.homeParagraph {
+    text-align: center;
+    margin-left: 15px;
+}
