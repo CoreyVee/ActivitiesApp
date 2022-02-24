@@ -26,6 +26,10 @@ Body {
 }
 #activityCard {
     margin-top: 25px;
+    margin-bottom: 25px;
+}
+.FavoritesCard {
+        margin-top: 25px;
 }
 hr {
     padding: 0px;
@@ -39,7 +43,7 @@ hr {
 #footer {
     margin-top: 75px;
 }
-.activityCard {
+.FavoritesCard {
     margin-bottom: 60px;
 }
 .video-responsive {
