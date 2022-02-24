@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ActivitiesApp/static/css/main.439793d1.css",
-    "main.js": "/ActivitiesApp/static/js/main.afe40b14.js",
+    "main.css": "/ActivitiesApp/static/css/main.63e11e0b.css",
+    "main.js": "/ActivitiesApp/static/js/main.e091e917.js",
     "static/js/787.060ece91.chunk.js": "/ActivitiesApp/static/js/787.060ece91.chunk.js",
     "static/media/relax.png": "/ActivitiesApp/static/media/relax.9f2ba74f7f70358103c1.png",
     "index.html": "/ActivitiesApp/index.html",
-    "main.439793d1.css.map": "/ActivitiesApp/static/css/main.439793d1.css.map",
-    "main.afe40b14.js.map": "/ActivitiesApp/static/js/main.afe40b14.js.map",
+    "main.63e11e0b.css.map": "/ActivitiesApp/static/css/main.63e11e0b.css.map",
+    "main.e091e917.js.map": "/ActivitiesApp/static/js/main.e091e917.js.map",
     "787.060ece91.chunk.js.map": "/ActivitiesApp/static/js/787.060ece91.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.439793d1.css",
-    "static/js/main.afe40b14.js"
+    "static/css/main.63e11e0b.css",
+    "static/js/main.e091e917.js"
   ]
 }
