@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/CoreyVee/ActivitiesApp/static/css/main.439793d1.css",
+    "main.js": "/CoreyVee/ActivitiesApp/static/js/main.a3e97e83.js",
+    "static/js/787.060ece91.chunk.js": "/CoreyVee/ActivitiesApp/static/js/787.060ece91.chunk.js",
+    "static/media/relax.png": "/CoreyVee/ActivitiesApp/static/media/relax.9f2ba74f7f70358103c1.png",
+    "index.html": "/CoreyVee/ActivitiesApp/index.html",
+    "main.439793d1.css.map": "/CoreyVee/ActivitiesApp/static/css/main.439793d1.css.map",
+    "main.a3e97e83.js.map": "/CoreyVee/ActivitiesApp/static/js/main.a3e97e83.js.map",
+    "787.060ece91.chunk.js.map": "/CoreyVee/ActivitiesApp/static/js/787.060ece91.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.439793d1.css",
+    "static/js/main.a3e97e83.js"
+  ]
+}
