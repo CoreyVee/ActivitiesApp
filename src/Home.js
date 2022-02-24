@@ -18,7 +18,7 @@ const Home = ({ favorite, handleAddFavorite, handleRemoveFavorite }) => {
   const boredArray = [];
   boredArray.push(bored);
 
-  const url = `http://www.boredapi.com/api/activity${type}`;
+  const url = `https://www.boredapi.com/api/activity${type}`;
   const typeArr = [
     { type: "Random", link: "/" },
     { type: "Education", link: "?type=education" },
@@ -55,7 +55,7 @@ const Home = ({ favorite, handleAddFavorite, handleRemoveFavorite }) => {
     </Dropdown.Item>
   ));
   const getBored = () => {
-    const url = `http://www.boredapi.com/api/activity/`;
+    const url = `https://www.boredapi.com/api/activity/`;
 
     fetch(url)
       .then((response) => response.json())
