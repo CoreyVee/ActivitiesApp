@@ -3,9 +3,9 @@ import { Route, Routes } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 import Home from "./Home";
-import Favorites from "./Favorites";
 import About from "./About";
 import "./App.css";
+import {LinkContainer} from 'react-router-bootstrap'
 
 function App(bored) {
   const [favorite, setFavorite] = useState([]);

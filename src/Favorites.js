@@ -1,10 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
-import { AiOutlineStar } from "react-icons/ai";
 
 const Favorites = ({ favoriteHidden, favorite, handleRemoveFavorite }) => {
   const showFavorites = favorite.map((object, index) => {
@@ -13,7 +10,7 @@ const Favorites = ({ favoriteHidden, favorite, handleRemoveFavorite }) => {
         <Container
           className={favoriteHidden}
           key={index}
-          className="activityCard"
+          className="FavoritesCard"
         >
           <Card>
             <Card.Header className="text-center">Favorite </Card.Header>

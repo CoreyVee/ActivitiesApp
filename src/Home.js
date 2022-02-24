@@ -6,7 +6,6 @@ import Button from "react-bootstrap/Button";
 import ButtonGroup from "react-bootstrap/ButtonGroup";
 import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
-import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 import { AiOutlineStar } from "react-icons/ai";
 
