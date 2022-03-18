@@ -1,4 +1,7 @@
-# Project
+# Activities App
+
+## Deployed Link
+https://coreyvee.github.io/ActivitiesApp/
 
 ## Project Schedule
 
