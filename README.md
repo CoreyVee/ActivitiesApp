@@ -1,70 +1,110 @@
-# Getting Started with Create React App
+# Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Schedule
 
-## Available Scripts
+| Day | Deliverable | Status |
+|---|---|---|
+|Day 1 | Project Description & Draft Wireframe/ Priority Matrix/Timeline | Complete|
+| Day 2 | Submit Project Proposal & Finalize Wireframe changes/ Create React App components | In progress |
+| Day 3 | Complete Home and Navigation/ Create form and link to API request| Incomplete |
+| Day 4| Finalize favorites list/ debug API call errors/ Work on non-mvp features| Incomplete |
+| Day 5 | Revise for errors in morning / Celebrate at Deployment party | Incomplete |
 
-In the project directory, you can run:
+## API
 
-### `npm start`
+[Bored API](https://www.boredapi.com/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ex: 
+```
+{
+  "activity": "Practice coding in your favorite lanaguage",
+  "type": "recreational",
+  "participants": 1,
+  "price": 0,
+  "link": "",
+  "key": "7096020",
+  "accessibility": 0.1
+}
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Description
 
-### `npm test`
+My Productive Breaks App is designed to fetch random activity randomly or by categories of the users choosing, that provide a mentally stimulating break. Users will be able to add activities to their favorites list by toggling a favorites checkbox. Favorited activities will be saved to a list for the user so that they can return and learn more in the future. Non-mvp features include art to add a visual component to the activities, as well as a 15 minute timer so that users can enjoy a short productive break.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Wireframe
 
-### `npm run build`
+MVP features are written in black, non-MVP features are written in blue. To the right is a chart of components and their features. All dom rendering will occur through REACT app:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Wireframe](./AppWireframe.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![MobileWireframe](./MobileWireframe.png)
+## Time/Priority Matrix
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Components 
 
-### `npm run eject`
+| Components | Description |
+|---|---|
+| App | Set up app and components with React Router |
+| Header | Renders header and nav |
+| Footer | Footer renders along with nav |
+| Main.js | Connects and renders all components |
+| Form | Makes fetch request to Bored API and returns activity |
+| Favorites | Toggles favorited activities and appends them to list |
+| Related Activities | Suggests other activities based of your favorited acitivities |
+| Tips Page | Provides tips for making the most of your breaks so you can stay productive|
+| Art | Renders visual component for activities |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Rough estimate on features and their difficulty, with estimated time projections.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+MVP
+| User-story | Estimated Time | Actual Time|
+|---|---|---|
+| Home-page| 2 hours | -- |
+| Nav (header & footer) | 3.5 hours | -- |
+| API request form | 3 hours | -- |
+| Favorites Toggle | 2.5 hours | -- |
+| Favorites List | 2 hours | -- |
+| Debug/ Finalize MVP | 2.5 hours | -- |
+| Total MVP time | Projected: 15.5 hours | Actual : -- |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+non-MVP
+| User-story | Estimated Time | Actual Time|
+|---|---|---|
+| Favorites page | 2.5 hours | -- |
+| Img Components | 4 hours | -- |
+| Related Activities | 5 hours | -- |
+| Tips Page | 3 hours | -- |
+| Total non-MVP time | Projected: 14.5 hours | Actual : -- |
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## MVP
+Requirements
+- Professional README 
+- Completed Project Worksheet/Proposal
+- Git repository with a link to the hosted project.
+- Frequents commits dating to beginning of project (Min. of 15 commits)
+- Proper indentation and casing for JS and CSS 
+- No console.logs or commented out codes in final version
+- Only uses React for DOM Manipulation
+- No preloaded create-react-app files or code.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Additional Libraries
+Supporting libraries and thier role in the project
+|Library/Resources|Role|
+|---|---|
+| API | [Bored API](https://www.boredapi.com/) |
+| TBD | TBD |
+| TBD | TBD |
+| TBD | TBD |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Code Snippet
 
-### Code Splitting
+Brief code snippet of functionality that you are proud of an a brief description:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Issues and Resolutions
 
-### Analyzing the Bundle Size
+Project Issues and resolutions go here
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### SAMPLE.....
+**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
+**RESOLUTION**: Missing comma after first object in sources {} object
