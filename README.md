@@ -35,9 +35,9 @@ My Productive Breaks App is designed to fetch random activity randomly or by cat
 
 MVP features are written in black, non-MVP features are written in blue. To the right is a chart of components and their features. All dom rendering will occur through REACT app:
 
-![Wireframe](./AppWireframe.png)
+![Wireframe](./src/ProjectDetails/AppWireframe.png)
 
-![MobileWireframe](./MobileWireframe.png)
+![MobileWireframe](./src/ProjectDetails/MobileWireframe.png)
 ## Time/Priority Matrix
 
 ## Components 
